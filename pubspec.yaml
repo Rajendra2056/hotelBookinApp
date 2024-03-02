@@ -1,0 +1,50 @@
+name: hts
+description: A Hostel Booking and Tiffin service app
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.4
+
+  cloud_firestore: ^3.1.16
+  firebase_auth: ^3.3.18
+  firebase_messaging: ^11.4.0
+  google_sign_in: ^5.3.2
+  firebase_storage: ^10.2.16
+  file_picker: any
+  introduction_screen: any
+  share: ^2.0.4
+  flare_flutter: ^3.0.2
+  url_launcher: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+
+
+  flutter_launcher_icons: ^0.9.2
+  #Docs for flutter icons: https://github.com/fluttercommunity/flutter_launcher_icons
+  #Run the following packages:
+  #flutter pub get
+  #flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  image_path: "assets/images/icon.png"
+  android: true
+  ios: true
+
+
+flutter:
+  uses-material-design: true
+  # assets:
+    #For Images
+    # - assets/images/
+    # - assets/
+    # - assets/
+
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
